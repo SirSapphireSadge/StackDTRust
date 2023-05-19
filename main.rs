@@ -1,7 +1,7 @@
 #[derive(Debug)]
 struct Stack<T> {
     data: Vec<T>,
-}
+#sst}
 
 impl<T> Stack<T> {
     fn new() -> Self {
